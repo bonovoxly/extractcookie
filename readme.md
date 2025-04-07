@@ -4,6 +4,7 @@
 
 **Shoutout to <https://github.com/v-electrolux/extractcookie> for the original code...*
 
+
 Takes specified cookie value (from Cookie header)
 and put it in a header you want. You can declare prefix for value,
 which will be added to cookie value.
