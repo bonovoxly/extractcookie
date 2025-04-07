@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/v-electrolux/extractcookie"
+	"github.com/bonovoxly/extractcookie"
 )
 
 var (

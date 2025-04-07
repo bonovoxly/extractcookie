@@ -1,6 +1,8 @@
 # Cookie value extractor plugin for traefik
 
-[![Build Status](https://github.com/v-electrolux/extractcookie/workflows/Main/badge.svg?branch=master)](https://github.com/v-electrolux/extractcookie/actions)
+[![Build Status](https://github.com/bonovoxly/extractcookie/workflows/Main/badge.svg?branch=master)](https://github.com/bonovoxly/extractcookie/actions)
+
+**Shoutout to <https://github.com/v-electrolux/extractcookie> for the original code...*
 
 Takes specified cookie value (from Cookie header)
 and put it in a header you want. You can declare prefix for value,
@@ -23,13 +25,13 @@ If there is no such cookie, the header value will not be set
 - cli as local plugin
 ```
 --experimental.localplugins.extractcookie=true
---experimental.localplugins.extractcookie.modulename=github.com/v-electrolux/extractcookie
+--experimental.localplugins.extractcookie.modulename=github.com/bonovoxly/extractcookie
 ```
 
 - envs as local plugin
 ```
 TRAEFIK_EXPERIMENTAL_LOCALPLUGINS_extractcookie=true
-TRAEFIK_EXPERIMENTAL_LOCALPLUGINS_extractcookie_MODULENAME=github.com/v-electrolux/extractcookie
+TRAEFIK_EXPERIMENTAL_LOCALPLUGINS_extractcookie_MODULENAME=github.com/bonovoxly/extractcookie
 ```
 
 - yaml as local plugin
@@ -37,13 +39,13 @@ TRAEFIK_EXPERIMENTAL_LOCALPLUGINS_extractcookie_MODULENAME=github.com/v-electrol
 experimental:
   localplugins:
      extractcookie:
-      modulename: github.com/v-electrolux/extractcookie
+      modulename: github.com/bonovoxly/extractcookie
 ```
 
 - toml as local plugin
 ```toml
 [experimental.localplugins.extractcookie]
-    modulename = "github.com/v-electrolux/extractcookie"
+    modulename = "github.com/bonovoxly/extractcookie"
 ```
 
 ### Dynamic config examples

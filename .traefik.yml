@@ -1,7 +1,7 @@
 displayName: Cookie value extractor
 type: middleware
 
-import: github.com/v-electrolux/extractcookie
+import: github.com/bonovoxly/extractcookie
 
 summary: |
   Takes specified cookie value (from Cookie header)

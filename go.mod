@@ -1,3 +1,3 @@
-module github.com/v-electrolux/extractcookie
+module github.com/bonovoxly/extractcookie
 
 go 1.18
